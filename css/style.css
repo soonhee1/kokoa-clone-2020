@@ -1,4 +1,9 @@
-.status-bar{
-	display: flex;
-	justify-content: space-between;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "first-header.css";
+@import "login-form.css";
+body{
+	font-family: 'Montserrat', sans-serif; ;
 }
+

@@ -7,7 +7,7 @@
 	<title>Welcome to KokoaClone</title>
 </head>
 <body>
-	<div id="status-bar">
+	<div class="status-bar">
 		<div class = "status-bar__column">
 			<span>No Service</span>
 			<i class="fa-solid fa-wifi"></i>
@@ -17,23 +17,24 @@
 		</div>
 		<div class = "status-bar__column">
 			<span>110%</span>
-			<i class="fa-solid fa-battery-full"></i>
+			<i class="fa-solid fa-battery-full fa-lg"></i>
 			<i class="fa-solid fa-bolt"></i>
 		</div>
 	</div>
 	<header class = "welcome-header">
-		<h1>Welcome to KokoaClone</h1>
-		<form id="login-form">
-			<p>
+		<h1 class="welcome-header__title">Welcome to KokoaClone</h1>
+		<p class = "welcome-header__text">
 				If you have a Kokoa Account, log in with your email or phone number.
-			</p>
+		</p>
+	</header>
+	<form id="login-form">
+			
 			<input type="text" placeholder="Email or phone number"/>
 			<input type="password" placeholder="Password"/>
 			<input type = "submit" value="Log In"/>
-			<button>Sign Up</button>
+			<input type = "submit" value="Sign Up"/>
 			<a href="#">Find Kokoa Account or Password</a>
-		</form>
-	</header>
+	</form>
 	<script src="https://kit.fontawesome.com/6aa8b1126d.js" crossorigin="anonymous"></script>
 
 
