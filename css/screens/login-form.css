@@ -19,4 +19,15 @@
 }
 #login-form input[type=submit]{
 	border: none;
+	cursor: pointer;
+	background-color: olive;
+	padding: 20px 0px;
+	border-radius: 15px;
+}
+
+#login-form a{
+	text-align: center;
+	text-decoration: none;
+	color:  inherit;
+	font-size: 13px;
 }

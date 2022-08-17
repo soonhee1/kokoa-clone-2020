@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import "reset.css";
-@import "status-bar.css";
-@import "first-header.css";
-@import "login-form.css";
+/*Components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+/*Screens*/
+@import "screens/first-header.css";
+@import "screens/login-form.css";
+
 body{
-	font-family: 'Montserrat', sans-serif; ;
+	font-family: 'Montserrat', sans-serif;
+	height: 1000vh;
+}
+
+#login-form a{
+	text-align: center;
+	text-decoration: none;
+	color:  inherit;
+	font-size: 13px;
 }
 
